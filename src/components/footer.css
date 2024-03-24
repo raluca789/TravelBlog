@@ -1,0 +1,92 @@
+:root {
+  --primary-color: #00a896;
+  --secondary-color: #00a897;
+  --light-color-shadow: #b6dad7;
+  --light-color: #f3dfc1;
+  --super-light-color: #fafafa;
+  --dark-color: #160f29;
+  --hover-color: #149386;
+}
+
+.footer {
+  padding: 4rem 6rem;
+  background-color: #000;
+  color: var(--super-light-color);
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  text-align: start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.top i {
+  color: var(--super-light-color);
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+.top i:hover {
+  color: var(--hover-color);
+}
+
+.bottom {
+  padding-top: 2rem;
+  text-align: start;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.bottom div {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom h4 {
+  font-size: 1.3rem;
+  padding: 1rem 0 0.8rem 0;
+}
+
+.bottom a {
+  text-decoration: none;
+  color: var(--super-light-color);
+  padding-bottom: 0.4rem;
+  font-size: 1.1rem;
+}
+
+.subscribe .textDiv p {
+  text-decoration: none;
+  color: var(--super-light-color);
+  padding-bottom: 0.4rem;
+  font-size: 1.1rem;
+}
+
+.btnsub {
+  text-decoration: none;
+  color: var(--dark-color);
+  padding-bottom: 0.4rem;
+  background-color: var(--super-light-color);
+  padding: 0.5rem 0.5rem;
+  border-radius: 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: var(--dark-color);
+  cursor: pointer;
+  max-width: 30%;
+  margin-left: 35%;
+}
+
+.email input {
+  font-size: small;
+  border-radius: 4px;
+  margin-bottom: 0.25rem;
+  max-width: 50%;
+  text-align: center;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  margin-left: 25%;
+}
