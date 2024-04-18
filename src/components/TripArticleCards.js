@@ -1,4 +1,4 @@
-import './triparticlecards.css';
+import './TripArticleCards.css';
 import TripArticleTemplate from './TripArticleTemplate';
 
 function TripArticleCards() {

@@ -1,5 +1,5 @@
 import DestinationTemplate from './DestinationTemplate';
-import './destination.css';
+import './Destination.css';
 
 const Destination = () => {
   return (
@@ -44,35 +44,3 @@ const Destination = () => {
 };
 
 export default Destination;
-
-// import { useHistory } from 'react-router-dom'; // Importați useHistory din react-router-dom
-
-// const Destination = () => {
-//   const history = useHistory(); // Utilizați useHistory pentru a obține obiectul history
-
-//   // Funcție pentru a naviga către articolul corespunzător când o imagine este apăsată
-//   const handleImageClick = (articleId) => {
-//     // Utilizați history.push pentru a naviga către ruta corespunzătoare pentru articol
-//     history.push(`/article/${articleId}`);
-//   };
-
-//   return (
-//     <div className="destination">
-//       <h1>Popular Destinations Right Now</h1>
-//       <p>Discover handpicked top world destinations</p>
-
-//       <DestinationTemplate
-//         className="first-des"
-//         heading="Maldives: The Ultimate Tropical Paradise"
-//         text="The Maldives, an archipelago in the Indian Ocean, is renowned for its pristine white-sand beaches, crystal-clear turquoise waters and vibrant marine life. Comprising over 1,000 coral islands grouped into 26 atolls, the Maldives offers a secluded escape for travelers seeking luxury, relaxation and unparalleled natural beauty."
-//         imgdest1="https://images.unsplash.com/photo-1512100356356-de1b84283e18?w=1600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhkJTIwbWFsZGl2ZXN8ZW58MHx8MHx8fDA%3D"
-//         imgdest2="https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGhkJTIwbWFsZGl2ZXN8ZW58MHx8MHx8fDI%3D"
-//         onClick={() => handleImageClick('maldives')} // Adăugați onClick și apelați handleImageClick cu un id specific pentru articol
-//       />
-
-//       {/* Alte componente DestinationTemplate similare cu onClick definite pentru fiecare imagine */}
-//     </div>
-//   );
-// };
-
-// export default Destination;

@@ -2,7 +2,7 @@ import { useParams } from 'react-router-dom';
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
 import Navbar from '../components/Navbar';
-import '../components/singlearticle.css';
+import '../components/SingleArticle.css';
 
 function SingleArticle() {
   let { articleId } = useParams();

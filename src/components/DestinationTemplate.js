@@ -1,4 +1,4 @@
-import './destination.css';
+import './Destination.css';
 import { Component } from 'react';
 
 class DestinationTemplate extends Component {

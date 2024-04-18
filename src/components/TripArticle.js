@@ -1,4 +1,4 @@
-import './triparticle.css';
+import './TripArticle.css';
 import TripArticleTemplate from './TripArticleTemplate';
 import { Link } from 'react-router-dom';
 

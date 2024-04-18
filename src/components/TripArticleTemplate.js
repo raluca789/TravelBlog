@@ -1,25 +1,3 @@
-// import './triparticle.css';
-// import { Link } from 'react-router-dom';
-
-// function TripArticleTemplate(props) {
-//   return (
-//     <div className="card">
-//       <Link to={`/articles/${props.articleId}`} className="card-link">
-//         <div className="picture">
-//           <img src={props.picture} alt="picture" />
-//         </div>
-//         <div className="content">
-//           <h4>{props.heading}</h4>
-//           <p>{props.text}</p>
-//           <h6>Continue reading...</h6>
-//         </div>
-//       </Link>
-//     </div>
-//   );
-// }
-
-// export default TripArticleTemplate;
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 
